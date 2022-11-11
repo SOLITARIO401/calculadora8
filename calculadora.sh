@@ -95,7 +95,7 @@ elif         [ $OPC == "00" ];then
              exit
 
 else
-echo -e "\e[0;91m[!]-----------OPCION INVALIDA----------[!]"
+echo -e "[\e[91m!\e[39m]\e[91m-----------OPCION INVALIDA----------\e[39m[\e[91m!\e[39m]"
 sleep 1
 opc
 
